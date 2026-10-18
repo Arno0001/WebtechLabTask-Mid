@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form>
+    <div>
+        <label for="FullName">Full Name</label>
+        <input type="text" id="fullname" required>
+    </div><br>
+
+    <div>
+        <label for="Password">Password</label>
+        <input type="password" id="password">
+    </div><br>
+
+    <div>
+        <label for="dob">Date Of Birth</label>
+        <input type="date" id="dob">
+    </div><br>
+
+    <div>
+        <label for="image">Choose Your Photo</label>
+        <input type="file" id="image">
+    </div><br>
+
+    <div>
+        <label for="gender">Gender</label>
+        <input type="radio" name="gender" id="gender_1" value="Male">Male
+        <input type="radio" name="gender" id="gender_2" value="Female">Female
+    </div><br>
+
+    <div>
+        <label for="religion">Religion</label>
+        <input type="checkbox" name="religion" id="religion_1" value="Islam">Islam
+        <input type="checkbox" name="religion" id="religion_2" value="Hindu">Hindu
+    </div><br>
+
+    <div>
+        <label for="department">Department</label>
+        <select for="department">
+        <option value="CSE">CSE</option>
+        <option value="EEE">EEE</option>
+        </select>
+    </div><br>
+
+    <div>
+        <label for="Address">Full Address</label>
+        <textarea cols="15" rows="3"></textarea>
+    <div><br>
+    
+    <div>
+        <input type="submit" value="Register">
+        <input type="reset" value="Clear">
+    </div>
+</form>
+</body>
+</html>
+    
